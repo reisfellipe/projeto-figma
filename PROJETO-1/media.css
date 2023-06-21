@@ -1,0 +1,63 @@
+@media screen and (max-width: 680px){
+    
+    .btn-mobile {
+        display: block;
+        margin-right: 20px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu.active{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: var(--darkgray);
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu li{
+        padding: 20px 20px;
+    }
+    .menu button{
+        margin-left: 15px;
+    }
+    .titulo h1{
+        font-size: 33px;
+        width: 100%;
+        padding: 5px;
+    }
+    .sobre{
+        flex-direction: column;
+    }
+    .sobre .sobre-titulo{
+        text-align: center;
+        margin-left: 0;
+        margin:0;
+        width: 100%;
+    }
+    .sobre-titulo h3{
+        width: 100%;
+        font-size: 25px;
+    }
+    .sobre-titulo p{
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+    }
+    .sobre .imagem-sobre{
+        margin: 0;
+    }
+    .imagem-sobre img{
+        width: 100%;
+        padding: 20px;
+    }
+}
+

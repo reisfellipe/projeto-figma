@@ -21,7 +21,7 @@
 
 body{
     background-color: var(--darkgray);
-
+    overflow-x: hidden;
 }
 
 ul li{
@@ -35,7 +35,19 @@ ul li{
     align-items: center;
 
 }
-
+.btn-mobile div {
+    width: 30px;
+    height: 2.5px;
+    margin: 4px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.btn-mobile {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    display: none;
+}
 .logo{
     margin-left: 130px;
 }
@@ -66,39 +78,61 @@ ul li{
     border: 1px solid var(--gray);
     width: 100px;
 }
-section.prim {
+.prim {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    margin: 30px 60px;
-    align-items: center;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    color: white;
-    font-family: var(--fontebold);
-}
-section.prim img.man{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    width: 100%;
-    max-width: 300px;
-    height: 300px;
-}
-section.prim .titulo{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
-    text-align: center;
-}
-section.prim .tutulo h2{
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.titulo{
     text-align: center;
 }
-section.prim .titulo{
+.titulo h1{
+    font-size: 50px;
+    width: 600px;
+    color: white;
+}
+.titulo button{
+    padding: 17px 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.sobre {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    line-height: 1.5;
+    width: 100vw;
+    height: 100vh;
 }
+.sobre .sobre-titulo{
+    margin-left: 130px;
+}
+.sobre .sobre-titulo p{
+    width: 480px;
+    color: var(--gray);
+    margin: 15px 0;
+}
+.sobre .sobre-titulo h3{
+    color: white;
+    font-size: 45px;
+    width: 350px;
+    margin: ;
+}
+.sobre .imagem-sobre{
+    margin-right: 130px;
+}
+.sobre button{
+    padding: 17px 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
