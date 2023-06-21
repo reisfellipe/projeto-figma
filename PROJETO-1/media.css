@@ -1,5 +1,4 @@
 @media screen and (max-width: 680px){
-    
     .btn-mobile {
         display: block;
         margin-right: 20px;
@@ -18,7 +17,7 @@
         position: absolute;
         top: 80px;
         left: 0;
-        background-color: var(--darkgray);
+        background-color: var(--black);
     }
     .menu ul{
         display: block;
@@ -36,28 +35,33 @@
     }
     .sobre{
         flex-direction: column;
+        justify-content: center;
     }
+
     .sobre .sobre-titulo{
         text-align: center;
         margin-left: 0;
-        margin:0;
-        width: 100%;
     }
-    .sobre-titulo h3{
+
+    .sobre .sobre-titulo h3{
         width: 100%;
-        font-size: 25px;
+        margin: 0 auto;
+        font-size: 33px;
     }
-    .sobre-titulo p{
+
+    .sobre .sobre-titulo p{
         font-size: 18px;
         width: 100%;
-        margin: 0;
+        padding: 15px;
     }
+
     .sobre .imagem-sobre{
-        margin: 0;
+        width: 100%;
+        margin-right: 0;
     }
+
     .imagem-sobre img{
         width: 100%;
         padding: 20px;
     }
 }
-
